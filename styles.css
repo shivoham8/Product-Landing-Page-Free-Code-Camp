@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700;900&display=swap');
+
+:root {
+    --white: #fff;
+    --text: #6c7289;
+    --body: rgb(242, 235, 227);
+    --green: rgb(60, 128, 103);
+    --header-text: rgb(28, 35, 43);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--body);
+}
+
+#header-img {
+    width: 60px;
+    object-fit: contain;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 10px;
+}
+
+.the-product {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#email-section {
+    margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--green);
+}
+
+#submit {
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+
+section::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+section {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Poppins';
+    margin: 10px 0 20px 0;
+}
+
+.icon {
+    color: var(--green);
+    margin-right: 30px;
+}
+
+#features {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Poppins';
+}
+
+#video {
+    width: 100%;
+}
+
+.product-image {
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid var(--text);
+    border-radius: 10px 10px 0 0;
+}
+
+.product1 {
+    background-image: url('https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71vK0WVQ4rL._SL1500_.jpg');
+}
+
+.product2 {
+    background-image: url('https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg');
+}
+
+.product3 {
+    background-image: url('https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91bYsX41DVL._AC_UF1000,1000_QL80_.jpg');
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.content {
+    font-family: 'Poppins';
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main-price {
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--green);
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: var(--text);
+}
+
+.author {
+    font-family: 'Poppins';
+    letter-spacing: 5px;
+    color: var(--text);
+    text-transform: uppercase;
+}
+
+.header {
+    font-family: 'Poppins';
+    margin: 10px 0;
+    color: var(--header-text);
+}
+
+.add {
+    background-color: var(--green);
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: var(--white);
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    #nav-bar {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (450px < width <600px) {
+    .card {
+        font-size: 0.85rem;
+    }
+
+    .product-image {
+        height: 400px;
+    }
+}
+
+@media only screen and (width >= 450px) {
+    .card {
+        display: flex;
+        max-width: 525px;
+    }
+    .inner-card {
+        width: 300px;
+        padding: 20px;
+    }
+    .product-image {
+        width: 400px;
+        border-radius: 10px 0 0 10px;
+    }
+}
+
+@media only screen and (width >= 1000px) {
+   #video {
+    width: 70%;
+   }
+   .product-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+}
