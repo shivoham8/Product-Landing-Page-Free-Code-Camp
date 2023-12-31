@@ -23,20 +23,17 @@ Browse our collection of classic books available for purchase:
 - **Author:** Dale Carnegie
 - **Description:** Explore Dale Carnegie's time-tested advice, guiding countless individuals to success in both business and personal endeavors.
 - **Price:** ~~$19.29~~ $16.12
-- [Add to Cart](#)
 
 ### 2. Rich Dad Poor Dad by Robert T. Kiyosaki
 ![Rich Dad Poor Dad](https://via.placeholder.com/150)
 - **Author:** Robert T. Kiyosaki
 - **Description:** Uncover the lessons on wealth and finance that the Rich teach their kids, setting this book apart for its invaluable insights.
 - **Price:** ~~$15.16~~ $7.68
-- [Add to Cart](#)
 
 ### 3. Atomic Habits by James Clear
 ![Atomic Habits](https://via.placeholder.com/150)
 - **Author:** James Clear
 - **Description:** Delve into the practical wisdom of James Clear's "Atomic Habits," a guide to effective habit formation and personal development.
 - **Price:** ~~$14.99~~ $11.98
-- [Add to Cart](#)
 
 Experience the joy of reading with Classic Books. Elevate your literary collection and enjoy the enchantment of timeless stories. Happy reading!
